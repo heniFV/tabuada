@@ -7,12 +7,20 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <h1>Tabuada</h1>
+    </header>
     <section>
-      <div></div>
-      <div></div>
+      <div>
+        Número: <input type="number" name="txtN" id="txtN" />
+        <input type="button" value="Gerar tabuada" onclick="tabuada()" />
+      </div>
+      <div>
+        <select name="tabuada" id="seltab" size="10"></select>
+        <option value="">Digite um número acima</option>
+      </div>
     </section>
-    <footer></footer>
+    <footer>&copy; Direitos Reservados</footer>
     <script src="./js/script.js"></script>
   </body>
 </html>
